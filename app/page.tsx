@@ -1,7 +1,6 @@
 // src/app/page.tsx
 'use client';
 
-import { useState } from 'react';
 import QuestionnaireComponent from '@/components/QuestionnaireComponent';
 
 export default function Home() {

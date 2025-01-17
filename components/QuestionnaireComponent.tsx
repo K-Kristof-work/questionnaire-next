@@ -8,11 +8,6 @@ import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
 import { Progress } from '@/components/ui/progress';
 
-interface Question {
-  id: number;
-  text: string;
-}
-
 export default function QuestionnaireComponent() {
   const [answers, setAnswers] = useState<boolean[]>(Array(150).fill(false));
   const [result, setResult] = useState<string | null>(null);
